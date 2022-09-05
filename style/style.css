@@ -1,0 +1,200 @@
+/* home */
+
+.background {
+    background-image: URL(../img/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    height: 100vh;
+}
+
+#welcome{
+    margin-top: 15vh;
+    margin-right: 60%;
+}
+
+
+/* login */
+
+.background > #login_form {
+   color: white;
+   border-radius: 5px;
+
+   width: 400px;
+   padding: 40px;
+   margin-top: 15vh;
+   margin-left: 5vh;
+   
+   -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+   box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+}
+   
+.background > #login_form > input{
+    padding: 3px;
+    width: 100%;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding-left: 10px;
+}    
+
+.background > #login_form > .form-group{
+    margin: 15px auto;
+}
+      
+.background > #login_form > .input-group{
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+    box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+}
+     
+.background > #login_form > button{
+    width: 100% ;
+    text-align: center;
+}
+       
+
+/* sign up */
+
+.background > #signup_form{
+    color: white;
+    border-radius: 5px;
+    width: 400px;
+    padding: 40px;
+    margin-top: 15vh;
+    margin-left: 5vh;
+
+    -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+}
+
+.background > #signup_form > button{
+   width: 100%;
+   text-align: center;
+}
+
+.background > #signup_form > .form-group{
+   margin: 15px auto;
+}
+   
+.background > #signup_form > .input-group{
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+    box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+}
+.background > #signup_form > .input-group-addon{
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+      
+.background > #signup_form > input{
+    padding-left: 10px;
+}
+   
+.background > #signup_form > input{
+    padding: 3px;
+    width: 100%;
+    border: none;
+    border-radius: 0 5px 5px 0;
+} 
+
+
+/* browsing movie */
+  
+.background > .movies{
+    color: white;
+    border-radius: 5px;
+    width:max-content;
+    padding: 30px;
+    margin: 6vh auto;
+
+    -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+}
+
+
+/* ADD movie */
+
+.add_movie{
+    color: white;
+    border-radius: 5px;
+    width:max-content;
+    padding: 30px;
+    margin: 6vh auto;
+
+    -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+}
+
+
+/* ADD comment */
+
+.background > .movie{
+    color: white;
+    border-radius: 5px;
+    width:max-content;
+    padding: 30px;
+    margin: 6vh auto;
+    
+    -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+}
+    
+#post_button{
+    margin: 10px;
+    padding: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: #ecb21f;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 13px;
+    width: 50%;
+}
+
+#comment{
+    background-color: black;
+    float: left;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+    
+#comment > h4, #comment > span{
+    display: inline;
+    color: white;
+}
+
+#comment > p , #comment > span{
+    color: rgb(184, 183, 183);
+}
+
+.color{ 
+    color: white;
+    font-weight: bold;
+}
+
+.form-group > input, .form-group > textarea{
+    background-color: black;
+    border: 1px solid rgba(16, 46, 46, 1);
+    border-radius: 12px;
+}
+
+#comment_form{
+    border: 1px solid rgba(16, 46, 46, 1);
+    background-color: rgba(71, 70, 70, 0.973);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
