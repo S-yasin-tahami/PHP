@@ -1,2 +1,2 @@
 # PHP
-simple web site with php
+simple website with php
