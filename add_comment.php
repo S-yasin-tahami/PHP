@@ -138,7 +138,7 @@
 
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="text" name="email" id="email" class="form-control "style="background-color: black;" required> 
+                                <input type="email" name="email" id="email" class="form-control "style="background-color: black;" required> 
                             </div>
                             <div class="text-danger"><?php echo $errors['email']  ?></div>
 
