@@ -84,7 +84,7 @@
             <br>
             <div class="input-group">
                <div class="input-group-text" id="basic-addon1"><i class="bi bi-key"></i></div>
-               <input type="text"  name="password" class="form-control" placeholder="Enter Your password" value="<?php echo htmlspecialchars($password); ?>" required>
+               <input type="password"  name="password" class="form-control" placeholder="Enter Your password" value="<?php echo htmlspecialchars($password); ?>" required>
             </div>
          </div>
       
@@ -92,7 +92,7 @@
             <br>
             <div class="input-group">
                <div class="input-group-text" id="basic-addon1"><i class="bi bi-key-fill"></i></div>
-               <input type="text" name="confirm_password"  class="form-control" placeholder="confirm Your password" value="<?php echo htmlspecialchars($confirm_password); ?>" required>
+               <input type="password" name="confirm_password"  class="form-control" placeholder="confirm Your password" value="<?php echo htmlspecialchars($confirm_password); ?>" required>
             </div>
             <div class="text-danger"><?php echo $errors['confirm_password'] ?></div> 
 
