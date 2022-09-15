@@ -66,7 +66,7 @@
             <br>
             <div class="input-group">
                <div class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></div>
-               <input type="text" name="email" class="form-control" placeholder="Enter Your Email"  value="<?php echo htmlspecialchars($email); ?>" required>
+               <input type="email" name="email" class="form-control" placeholder="Enter Your Email"  value="<?php echo htmlspecialchars($email); ?>" required>
             </div>
             <div class="text-danger"><?php echo $errors['email'] ?></div> 
          </div>
